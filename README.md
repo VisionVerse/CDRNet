@@ -1,8 +1,5 @@
 # CDRNet: Change Discriminability Restoration Network for Foggy Remote Sensing Change Detection
 
-<p align="center">
-  <b>Official implementation of CDRNet</b>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue">
@@ -24,7 +21,7 @@ Fog interference usually weakens structural cues of real changed regions and ind
 ## Framework
 
 <p align="center">
-  <img src="figures/CDRNet_framework.jpg" width="900">
+  <img src="CDRNet_framework.jpg" width="900">
 </p>
 
 CDRNet consists of the following components:
@@ -210,24 +207,7 @@ python test.py \
 
 The predicted change maps will be saved in the configured output directory.
 
----
 
-## Loss Function
-
-CDRNet is optimized with a joint objective:
-
-```math
-L = L_cd + lambda_e L_edge + lambda_r L_reg
-```
-
-where:
-
-- `L_cd` denotes the binary change detection loss.
-- `L_edge` denotes the edge supervision loss.
-- `L_reg` denotes the regularization term.
-- `lambda_e` and `lambda_r` are balancing weights.
-
----
 
 ## Citation
 
@@ -236,8 +216,8 @@ If you find this repository useful, please consider citing our paper:
 ```bibtex
 @article{cdrnet2026,
   title={Change Discriminability Restoration Network for Foggy Remote Sensing Change Detection},
-  author={Author Name and Author Name},
-  journal={TBD},
+  author={},
+  journal={},
   year={2026}
 }
 ```
@@ -250,10 +230,4 @@ This project uses **PVT-v2** as the backbone. We thank the authors of PVT and th
 
 ---
 
-## Contact
 
-For questions or discussions, please contact:
-
-```text
-your-email@example.com
-```
