@@ -119,6 +119,8 @@ path = './pretrained_model/pvt_v2_b2.pth'
 
 ## Dataset Preparation
 
+The new foggy RSCD datasets can be obtained from the [Cloud Drive](https://pan.jiangnan.edu.cn/link/AA0298DDB05F1E43F6A70CF8A4D664AAA3) [RSCD].
+
 Please organize the dataset as follows:
 
 ```text
