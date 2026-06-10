@@ -35,16 +35,6 @@ CDRNet consists of the following components:
 
 ---
 
-## Highlights
-
-- A degradation-aware framework for foggy remote sensing change detection.
-- Structural cue compensation for restoring real changed regions degraded by fog.
-- Frequency-domain reliable-change enhancement based on wavelet decomposition.
-- Edge-guided pseudo-change disentanglement for suppressing fog-induced false responses.
-- Progressive coarse-to-fine decoding for accurate binary change prediction.
-
----
-
 ## Installation
 
 ```text
