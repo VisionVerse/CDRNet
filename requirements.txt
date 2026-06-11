@@ -1,0 +1,23 @@
+# Core deep learning framework
+# Install the PyTorch version that matches your CUDA version from https://pytorch.org/
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Scientific computing
+numpy>=1.23.0
+scipy>=1.9.0
+scikit-learn>=1.1.0
+
+# Image processing
+opencv-python>=4.6.0
+Pillow>=9.0.0
+imageio>=2.25.0
+
+# Visualization and progress
+matplotlib>=3.6.0
+tqdm>=4.64.0
+
+# Configuration and utilities
+einops>=0.6.0
+timm>=0.9.0
+PyYAML>=6.0
