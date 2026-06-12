@@ -2,8 +2,8 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Scene-Foggy%20Remote%20Sensing-purple">
-  <img src="https://img.shields.io/badge/Task-Remote%20Sensing%20Change%20Detection-green">
+  <img src="https://img.shields.io/badge/Scene-Foggy%20Remote%20Sensing-green">
+  <img src="https://img.shields.io/badge/Task-Remote%20Sensing%20Change%20Detection-purple">
   <img src="https://img.shields.io/badge/Python-3.10-blue">
   <img src="https://img.shields.io/badge/PyTorch-2.10-red">
 </p>
