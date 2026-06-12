@@ -114,18 +114,18 @@ Foggy RSCD Dataset/
 ├── train/
 │   ├── A/
 │   ├── B/
-│   └── GT/
+│   └── label/
 └── test/
     ├── A/
     ├── B/
-    └── GT/
+    └── label/
 ```
 
 Each sample contains:
 
 - `A`: image at the first time point
 - `B`: image at the second time point
-- `GT`: binary change mask
+- `label`: binary change mask
 
 The ground-truth mask should follow:
 
@@ -144,9 +144,9 @@ Modify the dataset path and training configuration in `train_v2.py`, then run:
 python train.py \
   --data_name foggy-LEVIR-CD \
   --epoch 200 \
-  --batchsize 8 \
+  --batchsize 32 \
   --trainsize 256 \
-  --lr_cdrnet 1e-4 \
+  --lr 1e-4 \
   --edge_weight 0.1 \
   --reg_weight 1e-4
 ```
@@ -158,7 +158,7 @@ Main options:
 --epoch           number of training epochs
 --batchsize       batch size
 --trainsize       input image size
---lr_cdrnet       learning rate
+--lr              learning rate
 --edge_weight     weight of edge supervision
 --reg_weight      weight of regularization
 ```
